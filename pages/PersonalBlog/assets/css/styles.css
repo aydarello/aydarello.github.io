@@ -1,0 +1,327 @@
+*{
+}
+body{
+	box-sizing: border-box;
+	overflow-x: hidden;
+	background-color: #f7f7f7;
+}
+h1, h2, h3, h4, h5, h6, a, p{
+	font-family: "Hind" !important;
+}
+a{
+	text-decoration: none;
+}
+button:focus{
+	outline: none;
+}
+a.nav-link{
+	color: #fff;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+.bg{
+	background-color: #212429;
+	height: 300px;
+	z-index: -100;
+}
+.bg-short{
+	background-color: #212429;
+	height: 50px;
+	z-index: -100;	
+}
+.upcase{
+	text-transform: uppercase;
+}
+.white-text{
+	color: #fff;
+}
+.abs{
+	position: absolute;
+}
+.rel{
+	position: relative;
+}
+.wrapper{
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.fa-facebook-f:before{
+	content: "\f39e" !important;
+}
+nav #menu > ul > li .png{
+	width: 15px;
+	height: 15px;
+}
+nav #menu > ul > li, nav #stack > ul > li {
+	border-right: 1px solid #3c3c3c;
+	width: 60px;
+	height: 50px;
+}
+nav #menu > ul > li:first{
+	border-left: 1px solid #3c3c3c;
+}
+#menu > ul > li .nav-link, #stack > ul > li .nav-link{
+
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+#menu > ul{
+	padding: 0;
+}
+header nav.navbar.navbar-expand-lg{
+	padding: 0;
+	height: 50px;
+}
+nav a.navbar-brand{
+	padding: 0;
+}
+#thumb{
+	background-image: url('C:/Users/Айдар/Desktop/Web projects/HTML and CSS/PersonalBlog/assets/images/thumbnail.png');
+	height: 580px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left: 8%;
+	padding-right: 4%;
+}
+.bold{
+	font-weight: bold;
+}
+.hidden-right{
+
+}
+.w-0{
+	width: 0;
+}
+.w-35{
+	width: 35%;
+}
+ul li{
+	list-style: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+#featured_article{
+	width: 25%;
+	margin: 0;
+	transform: translate(-50%, -400%);
+}
+#featured_article > ul{
+	transform: rotate(-90deg);
+}
+#featured_article > ul > li:eq(1){
+	width: 75px;
+}
+.d-none{
+	display: none;
+}
+.d-block{
+	display: block;
+}
+.navbar-toggler{
+	border-left: 1px solid #3c3c3c;
+	border-right: 1px solid #3c3c3c;
+}
+#signup{
+	height: 100px;
+	background-color: #f7f7f7;
+}
+#signup > .row > .col-lg-2:first{
+	padding: 10px;
+}
+#signup input{
+	height: 45px;
+	font-size: 20px;
+}
+#signup .subscribe-btn, #search .subscribe-btn{
+	background-color: #000;
+	height: 45px;
+}
+#search input{
+	background-color: #f9f9fb;
+}
+input{
+	border: none;
+}
+.dark-gray-text{
+	color: #999999;
+}
+#ad{
+	height: 900px;
+}
+#latest_post section{
+	height: 70px;
+}
+.img-post{
+	height: 400px;
+	background-color: #edeef1;
+}
+.img-post::before{
+	content: '\f03e';
+	padding-left:8px;
+	position: absolute;
+	background-color: #212121;
+	width: 40px;
+	height: 35px;
+	color: #fff;
+	font-family: "Font Awesome 5 Pro";
+	font-size: 25px;
+	left: 50%;
+	top: 100%;
+	z-index: 100;
+	transform: translate(-50%, -50%);
+}
+main h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+.readmore-btn{
+	border-left: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+	width: 130px;
+	font-weight: 700;
+}
+.readmore-btn > a{
+	color: #000;
+	text-decoration: none;
+}
+footer{
+	background-color: #212429;
+	height: 400px;
+}
+#subscr{
+	background-color: #3a3c49;
+	height: 140px;
+}
+.white{
+	background-color: #fff;
+}
+.divider{
+	background-color: #43464a;
+	height: 1px;
+}
+.copyright{
+	background-color: #17191c;
+	height: 30px;
+}
+.copyright > p{
+	color: #5b5d5e;
+	margin: 0;
+}
+.black-text{
+	color: #000;
+}
+.black{
+	background-color: #000;
+}
+.quote{
+	background-color: #131d1c;
+}
+.quote::before{
+	content: 'Q';
+	padding-left:0px;
+	position: absolute;
+	background-color: #ffffff;
+	width: 40px;
+	height: 35px;
+	color: #212429;
+	font-weight: bold;
+	font-family: "Hind";
+	font-size: 25px;
+	left: 50%;
+	top: 0;
+	z-index: 100;
+	transform: translate(-50%, -50%);
+}
+.quote-content{
+	font-size: 20px;
+}
+#post_pagination{
+	height: 100px;
+}
+.next-post{
+	background-color: #3a3c49;
+}
+.prev-post{
+	background-color: #000;
+}
+#share_links{
+	height: 50px;
+}
+#share_links > .row > .col > a:hover > .row > .col-3{
+	background-color: #212121;
+	transition: .4s ease-in-out;
+}
+#share_links > .row > .col > a:hover > .row > .col-3 > i{
+	color: #fff;
+	transition: .4s ease-in-out;
+}
+#share_links > .row > .col{
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+#share_links > .row > .col{
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+#share_links > .row > .col:last-child{
+	margin-right: 0;
+	margin-left: 1rem;
+}
+#share_links > .row > .col:first-child{
+	margin-right: 1rem;
+	margin-left: 0;
+}
+.rec-post{
+	height: 230px;
+}
+.alt-wrapper{
+	padding-left: 30%;
+	padding-right: 30%;
+}
+.e-404{
+	font-size: 300px;
+	color: #363636;
+	font-weight: bold;
+}
+.nothing-found{
+	color: #363636;
+	background-color: #f7f7f7;
+	letter-spacing: 10px;
+	font-size: 25px;
+}
+#aside-menu{
+	width: 250px;
+	height: auto;
+	background-color: #212429;
+	/* transform: translate(-54px, 50px); */
+	transition: .2s ease-in-out;
+}
+#aside-menu > ul > li{
+	height: 40px;
+}
+#aside-menu a{
+	color: #fff;
+	text-decoration: none;
+}
+#aside-menu hr{
+	background-color: #404040;
+}
+@media screen and (max-width: 768px) {
+	.hide-md{
+		display: none;
+	}
+}
+@media screen and (max-width: 992px) {
+	.hide-lg{
+		display: none;
+	}
+}
+@font-face{
+	font-family: "Hind"; 
+	src: url("C:/Users/Айдар/Desktop/Web projects/HTML and CSS/PersonalBlog/assets/fonts/Hind-Regular.ttf");
+}
+

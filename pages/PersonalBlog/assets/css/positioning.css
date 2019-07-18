@@ -1,0 +1,53 @@
+.centring{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.left-top{
+	left: 0;
+	top: 0;
+}
+.center-top{
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0);
+}
+.right-top{
+	right: 0;
+	top: 0;
+}
+.left-middle{
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+.right-middle{
+	left: 100%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.left-bottom{
+	left: 0;
+	bottom: 0;
+}
+.center-bottom{
+	left: 50%;
+	top: 100%;
+	transform: translate(-50%, -50%);
+}
+.right-bottom{
+	right: 0;
+	bottom: 0;
+	transform: translate(0, 0);
+}
+.centring-x{
+	left: 50%;
+	transform: translateX(-50%);
+}
+.centring-y{
+	top: 50%;
+	transform: translateY(-50%);
+}
+.b-0{
+	bottom: 0;
+}

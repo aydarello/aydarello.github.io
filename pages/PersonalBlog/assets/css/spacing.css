@@ -1,0 +1,74 @@
+/* Padding and margin 1px in 2 directions */
+.mx-1px{
+	margin-right: 1px;
+	margin-left: 1px;
+}
+.px-1px{
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.my-1px{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.py-1px{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/* Padding and margin 1px all sides */
+.p-1px{
+	padding: 1px;
+}
+.m-1px{
+	margin: 1px;
+}
+
+/* Margin 1px each side */
+.mt-1px{
+	margin-top: 1px;
+}
+.mb-1px{
+	margin-bottom: 1px;
+}
+.ml-1px{
+	margin-left: 1px;
+}
+.mr-1px{
+	margin-right: 1px;
+}
+
+/* Padding 1px each side */
+.pt-1px{
+	padding-top: 1px;
+}
+.pb-1px{
+	padding-bottom: 1px;
+}
+.pl-1px{
+	padding-left: 1px;
+}
+.pr-1px{
+	padding-right: 1px;
+}
+.px-15px{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* Zero spacing */
+.p-0{
+	padding: 0;
+}
+.pr-0{
+	padding-right: 0;
+}
+.pl-0{
+	padding-left: 0;
+}
+.px-0{
+	padding-left: 0;
+	padding-right: 0;
+}
+.m-0{
+	margin: 0;
+}
