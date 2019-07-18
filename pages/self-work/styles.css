@@ -1,0 +1,247 @@
+body{
+	height: 2000px;
+}
+.p-0{
+	padding: 0;
+}
+.p-3{
+	padding: 3px;
+}
+#navbar-list > li{
+	margin-left: 2rem; 
+}
+.ff-mistral{
+	font-family: 'Mistral';
+	font-weight: bold;
+	font-size: 30px;
+}
+#creative::before{
+	content: 'Think';
+	display: inline-block;
+	color: #2D2D2D;
+	font-size: 40px;
+	transform: translate(-100px, -60px);
+	font-family: 'Mistral';
+	text-transform: none;
+	font-weight: bold;
+	width: 0px;
+}
+#work::before{
+	content: 'Our';
+	display: inline-block;
+	font-size: 40px;
+	transform: translate(-80px, -60px);
+	font-family: 'Mistral';
+	text-transform: none;
+	font-weight: bold;
+	width: 0px;	
+}
+#creative{
+	transform: translate(0, 0);
+}
+#header-poster{
+	height: 400px;
+	background: linear-gradient(to bottom, #fff, #ECECEC);
+	overflow: hidden;
+}
+.mountain{
+	transform: translateY(200px);
+	z-index: -10;
+}
+.browser{
+	transform: translate(20%, -205px);
+}
+.ipad-mini-black{
+	transform: translate(53%, -570px);
+}
+.iphone-5-black{
+	transform: translate(45%, -850px);
+}
+.introduction{
+	height: 820px; 
+	background-color: #3f3b48;
+}
+.example{
+	list-style-type: none;
+	padding: 0;
+	text-transform: uppercase;
+}
+.example > li::before{
+	margin-right: 4px;
+	width: 21px;
+}
+.example > li:nth-child(1)::before{
+	content: '\1F3C6';
+}
+.example > li:nth-child(2)::before{
+	content: '\2022';
+}
+.example > li:nth-child(3)::before{
+	content: '\2605';
+}
+.card{
+	background-color: #635f6d;
+	overflow: hidden;
+}
+.card-img-indep{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.h-100{
+	height: 100px !important;
+}
+
+.rectangle-next{
+	position: relative;
+	transform: translate(88px, 25px);
+	z-index: -1;
+}
+.rectangle-prev{
+	position: relative;
+	transform: translate(-185px, -17px);
+	z-index: -1;
+}
+.work-info{
+	height: 900px;
+	/*background: linear-gradient(to bottom, #fff, #F3F3F3);  //lineatr gradienrt*/
+	overflow: hidden;
+}
+.t-tr-upper{
+	text-transform: uppercase
+}
+.ground{
+	position: absolute;
+	transform: translate(0px, 605px);
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+.winners, .losers, .companies-list{
+	position: absolute;
+}
+.winners{
+	transform: translate(600px, 35px);
+}
+.losers{
+	transform: translate(250px, 75px);
+}
+.btn-danger{
+	background-color: #FF0000;
+}
+.btn-danger:hover{
+	background-color: #DE0000;
+}
+.blog-post{
+	height: 780px;
+	background-color: #3f3b48;
+	overflow: hidden;
+	box-sizing: none;
+}
+#blog::before{
+	content: 'Our';
+	text-transform: none;
+	font-family: 'Mistral';
+	font-size: 45px;
+	display: inline-block;
+	position: absolute;
+	transform: translate(-65px, 15px);
+}
+.input-blog-slider{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-appearance: none;
+	width: 75%;
+	height: 8px;
+	border-radius: 4px;
+	background: #2f2c36;
+	box-shadow: inset #1d1d1d -1px 2px 2px 0px;
+}
+.input-blog-slider::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	width: 86px;
+	height: 24px;
+	background-image: url('assets/slider-thumb.png');
+}
+.input-blog-slider:focus{
+	outline: none;
+}
+.unique-card{
+	width: 337px;
+	height: 400px;
+	background-color: #595466;
+	border-radius: 0;
+	border: none;
+	box-shadow: 0px 0px 20px 0px;
+}
+.divider{
+	height: 1px;
+	width: 100%;
+	position: absolute;
+}
+.fun-facts{
+	height: 700px;
+	background-color: white;
+}
+.circle{
+	position: absolute;
+	background-color: #3f3b48;
+	border-radius: 50%;
+}
+.sub-circle{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #3f3b48;
+	position: absolute;
+}
+.line{
+	position: relative;
+	height: 1px;
+	background-color: #3f3b48;
+	margin: 0;
+}
+footer{
+	height: 90px;
+	background-color: #3f3b48; 
+}
+.follow-circle{
+	position: absolute; 
+	width: 45px; 
+	height: 45px; 
+	background-color: #3f3b48; 
+	border-radius: 50%; 
+	border: solid 3px #fff; 
+	right: 0; 
+	top: 50%;
+	transform: translateY(-50%);
+}
+.follow-circle > a{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+@media screen and (max-width: 992px){
+	.winners, .losers{
+		display: none;
+	}
+}
+@font-face{
+	font-family: 'Mistral';
+	src: url('C:/Windows/Fonts/rosalinda-font.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'KenyanCoffeeRg';
+	src: url('C:/Windows/Fonts/kenyan_coffee_rg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
