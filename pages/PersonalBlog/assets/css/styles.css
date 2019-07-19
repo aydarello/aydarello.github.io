@@ -78,7 +78,7 @@ nav a.navbar-brand{
 	padding: 0;
 }
 #thumb{
-	background-image: url('C:/Users/Айдар/Desktop/Web projects/HTML and CSS/PersonalBlog/assets/images/thumbnail.png');
+	background-image: url('assets/images/thumbnail.png');
 	height: 580px;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -322,6 +322,6 @@ footer{
 }
 @font-face{
 	font-family: "Hind"; 
-	src: url("C:/Users/Айдар/Desktop/Web projects/HTML and CSS/PersonalBlog/assets/fonts/Hind-Regular.ttf");
+	src: url("assets/fonts/Hind-Regular.ttf");
 }
 
