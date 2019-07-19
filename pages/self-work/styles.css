@@ -235,13 +235,13 @@ footer{
 }
 @font-face{
 	font-family: 'Mistral';
-	src: url('C:/Windows/Fonts/rosalinda-font.ttf') format('truetype');
+	src: url('fonts/rosalinda-font.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'KenyanCoffeeRg';
-	src: url('C:/Windows/Fonts/kenyan_coffee_rg.ttf') format('truetype');
+	src: url('fonts/kenyan_coffee_rg.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
