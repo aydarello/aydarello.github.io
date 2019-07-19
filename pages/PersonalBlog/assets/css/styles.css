@@ -299,6 +299,7 @@ footer{
 	background-color: #212429;
 	/* transform: translate(-54px, 50px); */
 	transition: .2s ease-in-out;
+	z-index: 10000;
 }
 #aside-menu > ul > li{
 	height: 40px;
