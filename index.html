@@ -10,6 +10,9 @@
 	<title>Portfolio</title>
 
 	<style>
+		*{
+			background-color: #212429;
+		}
 		#aside-menu{
 			width: 100%;
 			height: auto;
@@ -38,10 +41,25 @@
 		.m-0{
 			margin: 0;
 		}
+		#contact-info{
+			height: auto;
+			width: 30%;
+		}
 	</style>
 </head>
 <body>
-	<h1 class="text-center m-0" style="background-color: #212429; color: white;">Portfolio</h1>
+	<div class="d-flex">
+		<a href="#" class="abs centring-y" id="#stack"><i class="fas fa-align-justify"></i></a></li>
+		<h1 class="text-center m-0" style="background-color: #212429; color: white;">Portfolio</h1>
+	</div>
+	<div id="contact-info">
+		<ul>
+			<li>Telegram: @aydarello</li>
+			<li>Twitter: @ydarello</li>
+			<li>Vkontakte: https://vk.com/aydar_abr</li>
+			<li>E-mail: abrarov31@gmail.com</li>
+		</ul>
+	</div>
 	<div id="aside-menu" class="abs">
 		<ul class="">
 			<li class="pl-3 rel"><a class="abs centring-y" href="/pages/self-work/self-work.html">Selfwork</a></li>
@@ -49,5 +67,31 @@
 			<li class="pl-3 rel"><a class="abs centring-y" href="/pages/PersonalBlog/index.html">Decoblog</a></li>
 		</ul>
 	</div>
+	
+	<!-- Optional JavaScript -->
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- jQuery new, then main.js -->
+    	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function(){
+			var contactInfoWidth = $('#contact-info').width();
+			var clickIndexer = 0;
+			$('#contact-info').css({'transform' : 'translate(-' + 54 + contactInfoWidth + 'px, ' + (25 + ($('#contact-info').height() * 0.5)) + 'px)'})
+			$('#stack').click(function() {
+				$('#contact-info').height($('#contact-info > ul').height()).css({'transform' : 'translate(-' + (54 + contactInfoWidth) + 'px, ' + (25 + ($('#contact-info').height() * 0.5)) + 'px)'});
+		
+				clickIndexer++;
+				if (clickIndexer % 2 == 0) {
+					contactInfoWidth = $('#aside-menu').width();
+				}
+				else{
+					contactInfoWidth = 0;
+				}
+			});
+		});
+	</script>
 </body>
 </html>
