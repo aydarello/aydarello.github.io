@@ -16,7 +16,7 @@
 
 	<style>
 		*{
-			background-color: #212429;
+			background-color: #212429 !important;
 		}
 		#aside-menu{
 			width: 100%;
@@ -53,7 +53,8 @@
 			background-color: #212429;
 		}
 		#contact-info > ul > li{
-			color: #fff;	
+			color: #fff;
+			list-style-type: none;
 		}
 		#stack{
 			color: #fff;
@@ -93,9 +94,9 @@
 		$(document).ready(function(){
 			var contactInfoWidth = $('#contact-info').width();
 			var clickIndexer = 0;
-			$('#contact-info').css({'transform' : 'translate(-' + 54 + contactInfoWidth + 'px, 0)'})
+			$('#contact-info').css({'transform' : 'translate(-' + contactInfoWidth + 'px, 0)'})
 			$('#stack').click(function() {
-				$('#contact-info').height($('#contact-info > ul').height()).css({'transform' : 'translate(-' + (54 + contactInfoWidth) + 'px, 0)'});
+				$('#contact-info').height($('#contact-info > ul').height()).css({'transform' : 'translate(-' + contactInfoWidth + 'px, 0)'});
 		
 				clickIndexer++;
 				if (clickIndexer % 2 == 0) {
