@@ -51,7 +51,10 @@
 			width: 30%;
 			transition: .2s ease;
 		}
-		
+		#stack{
+			color: #fff;
+			text-decoration: none;
+		}
 	</style>
 </head>
 <body>
@@ -88,7 +91,7 @@
 			var clickIndexer = 0;
 			$('#contact-info').css({'transform' : 'translate(-' + 54 + contactInfoWidth + 'px, 0)'})
 			$('#stack').click(function() {
-				$('#contact-info').height($('#contact-info > ul').height()).css({'transform' : 'translate(-' + (54 + contactInfoWidth) + 'px, ' + (25 + ($('#contact-info').height() * 0.5)) + 'px)'});
+				$('#contact-info').height($('#contact-info > ul').height()).css({'transform' : 'translate(-' + (54 + contactInfoWidth) + 'px, 0)'});
 		
 				clickIndexer++;
 				if (clickIndexer % 2 == 0) {
