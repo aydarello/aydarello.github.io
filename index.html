@@ -49,13 +49,14 @@
 		#contact-info{
 			height: auto;
 			width: 30%;
+			transition: .2s ease;
 		}
 		
 	</style>
 </head>
 <body>
 	<div class="d-flex">
-		<a href="#" class="abs centring-y" id="stack"><i class="fas fa-align-justify"></i></a></li>
+		<a href="#" class="mr-auto" id="stack"><i class="fas fa-align-justify"></i></a></li>
 		<h1 class="text-center m-0" style="background-color: #212429; color: white;">Portfolio</h1>
 	</div>
 	<div id="contact-info">
@@ -85,7 +86,7 @@
 		$(document).ready(function(){
 			var contactInfoWidth = $('#contact-info').width();
 			var clickIndexer = 0;
-			$('#contact-info').css({'transform' : 'translate(-' + 54 + contactInfoWidth + 'px, ' + (25 + ($('#contact-info').height() * 0.5)) + 'px)'})
+			$('#contact-info').css({'transform' : 'translate(-' + 54 + contactInfoWidth + 'px, 0)'})
 			$('#stack').click(function() {
 				$('#contact-info').height($('#contact-info > ul').height()).css({'transform' : 'translate(-' + (54 + contactInfoWidth) + 'px, ' + (25 + ($('#contact-info').height() * 0.5)) + 'px)'});
 		
