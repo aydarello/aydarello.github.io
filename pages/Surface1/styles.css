@@ -1,3 +1,13 @@
+@font-face {
+font-family: 'Proxima Nova Thin';
+src: url('ProximaNovaT-Thin.eot');
+src: url('ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+url('ProximaNovaT-Thin.woff') format('woff'),
+url('ProximaNovaT-Thin.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
 body{
 	margin: 0;
 	padding: 0;
